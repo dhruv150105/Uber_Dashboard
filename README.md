@@ -11,18 +11,14 @@ Short one-line project description goes here.
 
 A short paragraph explaining what this project is, its goals, and who it's for.
 
-## Features
 
-* Feature 1
-* Feature 2
-* Feature 3
 
 ---
 
-## Screenshots & Images
+## Dashboard link
 
-Here you can showcase important images of your project.
-
+Here you can look at the dashboard through link:-
+https://app.powerbi.com/groups/me/reports/ae24e621-42b1-47b7-9adc-0df0b9e6978b/b45b6105286976606a82?experience=power-bi
 
 
 
@@ -33,7 +29,7 @@ Here you can showcase important images of your project.
 
 List any required software or versions, for example:
 
-* Node.js >= 14
+
 * Python 3.8+
 
 ## Installation
