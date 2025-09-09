@@ -1,17 +1,40 @@
 # Uber_Dashboard
-# Project Title
 
-Short one-line project description goes here.
+
+This repository contains the complete Power BI project for analyzing ride-booking data for the NCR region. The goal of this project was to take raw transactional data, clean it, build an interactive multi-page dashboard, and derive actionable business insights.
 
 ---
 
 
 
-## About
+## Project Structure
+The project is organized into a clean, easy-to-understand folder structure:
 
-A short paragraph explaining what this project is, its goals, and who it's for.
+### 1_Data: Contains the raw and supplementary data files.
+
+ncr_ride_bookings.csv: The primary transactional data for all rides.
+
+locations.csv: A helper file created to provide accurate latitude and longitude for mapping visuals.
+
+### 2_Report: Contains the final Power BI report file.
+
+NCR Ride Analysis.pbix: The complete Power BI project file with the data model, transformations, and all visuals.
+
+### 3_Analysis_and_Screenshots: Contains the final business report and visual assets.
+
+business_report.md: A detailed report summarizing the key findings and strategic recommendations derived from the dashboard.
+
+dashboard_screenshot.png: A screenshot of the main dashboard page.
 
 
+# Key Insights Derived from the Dashboard
+Peak Demand Identified: Business demand is highest during the months of July-August and on weekends, especially during the evening hours (6 PM - 9 PM).
+
+Cancellation Root Cause Pinpointed: The primary reason for customer cancellations is driver delays, with a significant spike during morning rush hours (9 AM), indicating a critical supply-demand gap.
+
+Geographic "Problem Zones" Flagged: Certain areas like "Gurgaon Sector 56" were identified as having poor operational performance with high driver response times, leading directly to a poor customer experience.
+
+Most Valuable Vehicle Category Uncovered: While "Go Mini" is the most booked vehicle, the "Go Sedan" is the most valuable category, generating higher revenue per ride and better overall customer satisfaction ratings.
 
 ---
 
@@ -29,7 +52,7 @@ https://app.powerbi.com/groups/me/reports/ae24e621-42b1-47b7-9adc-0df0b9e6978b/b
 
 List any required software or versions, for example:
 
-
+* Power BI Desktop
 * Python 3.8+
 
 ## Installation
@@ -75,6 +98,6 @@ MIT License
 
 ## Contact
 
-Your Name — [your.email@example.com](mailto:your.email@example.com)
+Email :- dhruvkumar60229@gmail.com
+LinkedIn :- linkedin.com/in/dhruv-kumar-a97428292
 
-Project Link: [https://github.com/yourname/your-repo](https://github.com/yourname/your-repo)
